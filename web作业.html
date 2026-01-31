@@ -3,6 +3,72 @@
 <head>
     <meta charset="UTTF-8">
     <title>web作业</title>
+    <style>
+    body{font-family:"Microsoft YaHei", sans-serif;}
+    nav ul { 
+        display: flex;
+        justify-content: center; 
+    }
+    nav ul li { list-style: none;
+        padding: 0 40px;
+        font-size: 20px;}
+    li:nth-child(3) { background-color: #FF6984; }
+    nav {
+    background-image: url('https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130143640976.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    }
+    nav ul li {
+    color: white;
+    line-height: 100px;
+    }
+    .欢迎 {
+        display: flex;
+        margin: 0 300px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    .欢迎text {
+    text-align: center;
+    font-size: 30px; 
+    margin-top : 30px; 
+    }
+    .欢迎text p {
+        font-size: 20px;
+        line-height: 2.0;
+        text-align: justify;
+        padding: 0 50px;
+    }
+    .欢迎img img {
+        vertical-align: top;
+    }
+    .欢迎text h2 {
+        margin-bottom: 30px;
+    }
+    .系列{
+    }
+    .系列 h2{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    }
+    .各系列{
+    display: flex;
+    justify-content: space-around;
+    }
+    .系列1,.系列2,.系列3{
+        width: 20%;
+    }
+    .系列1 h3,.系列2 h3,.系列3 h3{
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .系列1 p,.系列2 p,.系列3 p{
+        font-size: 20px;
+        line-height: 2.0;
+    }
+    </style>
 </head>
 <body>
    <nav>
@@ -13,48 +79,64 @@
             <li>企业礼品</li>
             <li>产品介绍</li>
         </ul>
-   </nav>
-   <section><img src="https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130143640976.png" alt="背景"></section>
-    <section class="welcome-section">
-    <div class="欢迎img">
-        <img src="https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130155602425.png" alt="书写">
-    </div>
-    <div class="欢迎text">
-        <h2>Welcome to LAMY</h2>
+    </nav>
+    <section class="欢迎">
+        <div class="欢迎img">
+            <img src="https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130155602425.png" alt="书写">
+        </div>
+        <div class="欢迎text">
+            <h2>Welcome to LAMY</h2>
         <p>德国书写工具品牌 LAMY 的创始人 C・Josef Lamy 于 1930 年在海德堡创立了欧瑟斯墨水笔制造厂。1952 年，崭露头角的 LAMY 流线型墨水笔震撼问世，彰显公司创新敏锐度。1966 年终于打造出令人耳目一新的现代经典之作 - LAMY 2000 系列产品。该产品融合了聚碳酸酯与不锈钢材质，绝妙搭配，使其从芸芸众生的书写工具中脱颖而出，时至今日，依然在市场具有影响力</p>
-    </div>
-</section>
-<section>
-    <h2>LAMY各系列</h2>
-    <div class="系列1">
-        <h3>【恒星系列 墨水笔】</h3>
-     <p>LAMY 恒星系列延续了 LAMY 的时尚造型，打造出锦上添花的极致品质。此系列全部均由氧化独特的凹式笔握以及弹性铜线笔夹，丰富的颜色让 LAMY 恒星系列突破了传统，散发着无限的青春魅力。</p>
-    </div>
-    <div class="系列2">
-        <h3>【狩猎系列限量色墨水笔】</h3>
-     <p>色彩丰富，颜色亮丽，不仅是可以作为书写工具，同样是很好的装饰品。宽大的笔夹设计，可随时夹在包带、牛仔裤、T 恤袖口上，让您感受创意方便的携带方式。笔身通体材质采用年用强力 ABS 材料。</p>
-    </div>
-    <div class="系列2">
-        <h3>【喜悦系列美术笔】</h3>
-     <p>用以绘画、写艺术字、艺术签名。扁平状的笔尖设计，适合书写艺术字。立体感极佳，1.1、1.5、1.9 三种笔尖可供选择，可书写粗细不等的立体字，让您随时感受变化的乐趣。复古的笔杆设计，经典又与众不同，显示出独特的欣赏品味。</p>
-    </div>
-    <a href="#">了解详细</a>
-</section>
-<div class="redyellow">
+        </div>
+    </section>
+    <section class="系列">
+        <h2>LAMY各系列</h2>
+        <div class="各系列">
+            <div class="系列1">
+                <h3>【恒星系列 墨水笔】</h3>
+                <p>LAMY 恒星系列延续了 LAMY 的时尚造型，打造出锦上添花的极致品质。此系列全部均由氧化独特的凹式笔握以及弹性铜线笔夹，丰富的颜色让 LAMY 恒星系列突破了传统，散发着无限的青春魅力。</p>
+            </div>
+            <div class="系列2">
+                <h3>【狩猎系列限量色墨水笔】</h3>
+                <p>色彩丰富，颜色亮丽，不仅是可以作为书写工具，同样是很好的装饰品。宽大的笔夹设计，可随时夹在包带、牛仔裤、T 恤袖口上，让您感受创意方便的携带方式。笔身通体材质采用年用强力 ABS 材料。</p>
+            </div>
+            <div class="系列2">
+                <h3>【喜悦系列美术笔】</h3>
+                <p>用以绘画、写艺术字、艺术签名。扁平状的笔尖设计，适合书写艺术字。立体感极佳，1.1、1.5、1.9 三种笔尖可供选择，可书写粗细不等的立体字，让您随时感受变化的乐趣。复古的笔杆设计，经典又与众不同，显示出独特的欣赏品味。</p>
+            </div>
+        </div>
+        <a href="#">了解详细</a>
+    </section>
+    <div class="redyellow">
     <img src="https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130155550141.png" alt="红黄钢笔">
-</div> 
-<section>
-    <h3>What people are saying</h3>
-    <img src="https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130155532472.png" alt="用户头像">
-    <div class="comment">
+    </div> 
+    <section>
+        <h3>What people are saying</h3>
+        <img src="https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130155532472.png" alt="用户头像">
+        <div class="comment">
         <p>使用令人难以置信的生产技术和坚持极高水平的精准要求，仅使用一种材质，也足以成就出这款永恒的设计。产品本身尽显极不相同加工程序和制造工艺，手工打磨的笔尖挫痕面充分体现了品牌对细节的注重。</p>
-    </div>
-</section>
-<section>
-    <h3>Choose Our products</h3>
-    <div class="产品组">
+        </div>
+    </section>
+    <section>
+        <h3>Choose Our products</h3>
+        <div class="产品组">
         <img src="https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130155645282.png" alt="产品组">
-    </div>
-</section>
+        </div>
+        <a href="#">戳我速购>></a>
+    </section>
+    <section>
+    <div class="新品">
+        <img src="https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130155536645.png">
+        <p>You make millions of decisions that mean nothing, and then one day your order takes out life.</p>
+        <img src="https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130155537818.png">
+        <p>It's sad when you realize you aren't as important to someone as you thought you were</p>
+        <img src="https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130155535659.png">
+        <p>Love is unequal, so don't count how much one contributes, and which is more active.</p>
+        </div>
+        <h3>新品推荐</h3>
+    </section>
+    <section>
+        <img src="https://00000000.oss-cn-beijing.aliyuncs.com/Data/I/%E5%B7%A5%E5%85%B7/PicGo/20260130155545872.png">
+    </section>
 </body>
 </html>
